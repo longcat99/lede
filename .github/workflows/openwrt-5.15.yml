@@ -69,7 +69,7 @@ jobs:
         git clone https://github.com/lisaac/luci-app-dockerman.git
         git clone https://github.com/lisaac/luci-lib-docker.git
         # git clone https://github.com/kiddin9/luci-app-dnsfilter.git
-        svn co https://github.com//longcat99/long/trunk/nb-luci/luci-app-gost
+        # svn co https://github.com//longcat99/long/trunk/nb-luci/luci-app-gost
         svn co https://github.com//longcat99/long/trunk/lienol
 
     - name: 下载插件
@@ -230,7 +230,7 @@ jobs:
         CONFIG_PACKAGE_luci-app-uhttpd=y
         CONFIG_PACKAGE_luci-app-frpc=y
         CONFIG_PACKAGE_luci-app-frps=y
-        CONFIG_PACKAGE_luci-app-gost=y
+        #CONFIG_PACKAGE_luci-app-gost=y
         # CONFIG_PACKAGE_luci-app-iptvhelper=y
         CONFIG_PACKAGE_luci-app-nps=y
         CONFIG_PACKAGE_luci-app-familycloud=y
